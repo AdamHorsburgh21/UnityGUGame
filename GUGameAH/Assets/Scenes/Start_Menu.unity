@@ -1512,8 +1512,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000012398, y: -36}
-  m_SizeDelta: {x: 412.9666, y: 123.0397}
+  m_AnchoredPosition: {x: -0.0000038147, y: -38.48}
+  m_SizeDelta: {x: 561.9333, y: 123.0397}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1151338270
 MonoBehaviour:
@@ -1554,7 +1554,7 @@ MonoBehaviour:
     Up Arrow
     - JUMP (W is not bound)
 
-    Use mouse to click buttons'
+    To click buttons use cursor and left click'
 --- !u!222 &1151338271
 CanvasRenderer:
   m_ObjectHideFlags: 0
