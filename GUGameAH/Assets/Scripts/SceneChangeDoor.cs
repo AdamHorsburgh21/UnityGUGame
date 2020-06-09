@@ -7,15 +7,6 @@ public class SceneChangeDoor : MonoBehaviour
 {
     public string TargetScene;
 
-   /* private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.collider.CompareTag("Player"))
-        {
-            SceneManager.LoadScene(TargetScene);
-        }
-        
-    }*/
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.collider.CompareTag("Player"))
@@ -23,4 +14,6 @@ public class SceneChangeDoor : MonoBehaviour
             SceneManager.LoadScene(TargetScene);
         }
     }
+    //when the Charater's hitbox collides with the hitbox of the other object with the script and the tag 'Player' it will progress to the targeted scene
+    //The next scene is targeted by writing the name of tthe scene in the component section of the object
 }

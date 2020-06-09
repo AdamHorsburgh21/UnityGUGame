@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//using UnityEngine.Animations;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -17,14 +16,9 @@ public class PlayerMovement : MonoBehaviour
 
     private bool facingRight = true;
 
-   // Animator anim;
-   // bool isWalking = false;
-    //bool onGround = false;
-
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-       // anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -52,18 +46,6 @@ public class PlayerMovement : MonoBehaviour
         {
             Flip();
         }
-
-      /*  if (speed > 0)
-        {
-            isWalking = true;
-        }
-        else
-        {
-            isWalking = false;
-        }
-
-        //anim.SetBool("isWalking", isWalking);
-        //anim.SetBool("onGround", onGround); */
     }
 
     void Jump()
